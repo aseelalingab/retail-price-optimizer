@@ -128,11 +128,13 @@ The Streamlit application provides:
 
 ### Historical backtest
 
-![Historical backtest dashboard](assets/screenshots/historical-backtest.png)
+<img width="1465" height="832" alt="Screenshot 2026-08-28 at 4 26 58 PM" src="https://github.com/user-attachments/assets/0383e5f3-3d33-4e25-80e7-7fbb04a2a9bd" />
+
 
 ### Future recommendation
 
-![Future recommendation dashboard](assets/screenshots/future-recommendation.png)
+<img width="1468" height="832" alt="Screenshot 2026-08-28 at 4 27 39 PM" src="https://github.com/user-attachments/assets/3d91a88e-9dba-4c80-b860-4ece6a152c48" />
+
 
 ## Project structure
 
