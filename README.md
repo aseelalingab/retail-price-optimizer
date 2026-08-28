@@ -103,17 +103,7 @@ maximum price = min(current price × (1 + maximum change), competitor price × (
 
 Grid search is a good fit for a single-product pricing decision because it is easy to explain, auditable, and evaluates every permitted price in the chosen range. More advanced methods such as genetic algorithms or particle swarm optimization would be more suitable for a joint optimization problem involving many products and shared constraints.
 
-## Future recommendation mode
 
-Future dates do not already exist in the dataset. To generate a one-day-ahead recommendation, the dashboard:
-
-1. retrieves the latest available history for the selected store and SKU;
-2. lets the user enter known or expected future conditions, including date, current price, competitor price, stock, promotion, and holiday status;
-3. derives the future calendar features from the chosen date;
-4. evaluates allowable candidate prices with the saved ANN; and
-5. recommends the price with the highest expected profit.
-
-This is a scenario-based forecast, not a guarantee. For decisions further into the future, lagged-demand inputs would need to be forecast recursively, so uncertainty increases with the forecast horizon.
 
 ## Dashboard
 
