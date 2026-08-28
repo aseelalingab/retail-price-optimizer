@@ -126,6 +126,14 @@ The Streamlit application provides:
 - recommended price, predicted demand, expected profit, and expected profit uplift; and
 - a chart and table comparing all candidate prices.
 
+### Historical backtest
+
+![Historical backtest dashboard](assets/screenshots/historical-backtest.png)
+
+### Future recommendation
+
+![Future recommendation dashboard](assets/screenshots/future-recommendation.png)
+
 ## Project structure
 
 ```text
@@ -139,6 +147,7 @@ The Streamlit application provides:
 ├── data/processed/
 │   ├── optimization_contexts.csv          # Holdout contexts for historical backtesting
 │   └── future_optimization_contexts.csv   # Latest context per store and SKU
+├── assets/screenshots/                     # Dashboard screenshots for this README
 ├── requirements.txt
 └── README.md
 ```
@@ -146,3 +155,4 @@ The Streamlit application provides:
 ## Skills demonstrated
 
 Python · Pandas · Scikit-learn · TensorFlow/Keras · Artificial Neural Networks · Feature Engineering · Time-Series Validation · Regression Evaluation · Profit Optimization · Streamlit · Model Deployment
+ Scikit-learn · TensorFlow/Keras · Artificial Neural Networks · Feature Engineering · Time-Series Validation · Regression Evaluation · Profit Optimization · Streamlit · Model Deployment
